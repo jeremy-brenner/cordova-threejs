@@ -1,0 +1,9 @@
+# view res/layout/color_picker_dialog_content.xml #generated:18
+-keep class org.chromium.ui.ColorPickerAdvanced { <init>(...); }
+
+# view res/layout/color_picker_dialog_content.xml #generated:42
+-keep class org.chromium.ui.ColorPickerMoreButton { <init>(...); }
+
+# view res/layout/color_picker_dialog_content.xml #generated:24
+-keep class org.chromium.ui.ColorPickerSimple { <init>(...); }
+

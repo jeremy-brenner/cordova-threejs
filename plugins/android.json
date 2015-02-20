@@ -1,0 +1,35 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/manifest/application": [
+                        {
+                            "xml": "<service android:exported=\"false\" android:isolatedProcess=\"true\" android:name=\"org.chromium.content.app.SandboxedProcessService0\" android:permission=\"org.chromium.content_shell.permission.SANDBOX\" android:process=\":sandboxed_process0\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<service android:exported=\"false\" android:isolatedProcess=\"true\" android:name=\"org.chromium.content.app.SandboxedProcessService1\" android:permission=\"org.chromium.content_shell.permission.SANDBOX\" android:process=\":sandboxed_process1\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": []
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.ludei.webview.plus": {
+            "PACKAGE_NAME": "com.drshoggoth.cordovathreejs"
+        }
+    },
+    "dependent_plugins": {}
+}
